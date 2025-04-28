@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Nav Bar</title>
+    <style>
+        ul li{
+            
+            display: inline-flex;
+            padding: 20px;
+            color: white;
+            list-style: none;
+        font-size: 20px;        
+        }
+    header{
+        position: sticky;
+        top: 0;
+    }
+        nav{
+            background-color: rgb(172, 13, 100);
+            height: 8vh;
+        }
+        body{
+            background-color: rgb(80, 72, 73);
+        }
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        :root{
+            --primary-color: red;
+            --secondary-color: black;
+
+        }
+        ul li a {
+            color: white;
+            text-decoration: none;
+        }
+        .boxes{
+            background-color: rgb(132, 145, 74);
+            height: 500px;
+            padding:80px;
+           justify-content: center;
+           
+        .left-box{
+            color: white;
+            font-weight: 300;
+            font-style:italic;
+            border: 2px solid black;
+            width: 45%;
+            display: inline-flex;
+            background-color: rgb(59, 78, 20);
+            height: 40vh;
+            font-size: 58px;
+            text-align: center;
+
+
+        }
+        .right-image{
+            border: 2px solid black;
+            height: 40vh;
+            display: inline-flex;
+            background-color: rgb(59, 78, 20);
+            border: 2px solid black;
+            width: 45%;
+            float: right;
+
+        }
+        .rectangle{
+            height: 10vh;
+            width: 50%;
+            border: 2px solid white;
+            text-align: center;
+            margin: 80px 400px;
+            justify-content: center;
+            display: flex;
+            border-radius: 40px;
+        }
+        .rectangle p{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 15px;
+            font-weight: 400;
+           font-style: italic;
+            padding: 25px;
+           text-align: center;
+           background-color: rgb(153, 89, 124);
+           color: white;
+           border-radius: 40px;
+           text-align: center;
+        }
+        .extra-box{
+            height: 100vh;
+            width: 50%;
+            border: 2px solid white;
+            text-align: center;
+            margin: 80px 400px;
+            justify-content: center;
+            display: flex;
+            border-radius: 40px;
+        }
+        .circle{
+            height: 10vh;
+            width: 5%;
+            border: 2px solid blue;
+            border-radius: 90px;
+            position: fixed;
+            bottom: 23px;
+            right: 12px;
+        
+        }
+          </style>
+</head>
+<body>
+    <header> 
+        <nav>
+            <ul>
+                <li ><a href="#">Home</a></li>
+                <li><a href="#">About</a> </li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Services</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="boxes">
+        <div class="left-box">
+<h1>Welcome to Bahamas</h1>    
+        </div>
+        <div class="right-image">
+            <img src="https://images.pexels.com/photos/8776832/pexels-photo-8776832.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" width="850" ></div>
+    </div>
+    <div class="rectangle"><p>
+        Lorem ipsum dolor, sit amet consectetur  elit. In assumenda sunt nobis t, cum illo voluptates facilis consequatur ipsa similique ipsam repellendus nihil iste dolore ullam. Autem laboriosam sapiente modi ab ipsum eum doloremque fugiat!
+
+    </p>
+    </div>
+    <div class="extra-box"></div>
+    <div class="circle"></div>
+</body>
+</html>
